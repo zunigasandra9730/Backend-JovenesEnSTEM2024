@@ -1,0 +1,1 @@
+web: gunicorn jovenes_stem_project.wsgi
