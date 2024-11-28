@@ -153,3 +153,5 @@ STORAGES = {
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 ALLOWED_HOSTS = ['localhost','web-production-71d9.up.railway.app']
+
+CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-71d9.up.railway.app']
