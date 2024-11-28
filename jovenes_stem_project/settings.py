@@ -152,6 +152,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Autorización CORS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    'https://frontend-jovenesenstem2024-production.up.railway.app'
     ]
 
 # No mostrar vista de API a usuarios no autenticados
