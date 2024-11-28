@@ -90,12 +90,12 @@ WSGI_APPLICATION = "jovenes_stem_project.wsgi.application"
 # }
 
 # DATABASES = {
-#     "default": dj_database_url.config(default=os.getenv("DATABASE_URL"))
+#     "default": dj_database_url.config(default=os.getenv("MYSQL_DATABASE"))
 # }
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
+        "ENGINE": "django.db.backends.mysql",
         "NAME": os.getenv("NAME"),
         "USER": os.getenv("USER"),
         "PASSWORD": os.getenv("PASSWORD"),
