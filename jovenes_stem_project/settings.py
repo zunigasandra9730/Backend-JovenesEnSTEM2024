@@ -152,7 +152,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Autorización CORS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    'https://frontend-jovenesenstem2024-production.up.railway.app'
+    'https://frontend-jovenesenstem2024-production.up.railway.app', 'https://jovenesenstem-ugb.com'
     ]
 
 # No mostrar vista de API a usuarios no autenticados
@@ -172,6 +172,6 @@ STORAGES = {
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-ALLOWED_HOSTS = ['127.0.0.1','web-production-71d9.up.railway.app', 'frontend-jovenesenstem2024-production.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','web-production-71d9.up.railway.app', 'frontend-jovenesenstem2024-production.up.railway.app','jovenesenstem-ugb.com']
 
-CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-71d9.up.railway.app', 'https://frontend-jovenesenstem2024-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-71d9.up.railway.app', 'https://frontend-jovenesenstem2024-production.up.railway.app','https://jovenesenstem-ugb.com']
