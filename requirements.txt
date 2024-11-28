@@ -5,10 +5,11 @@ django-cors-headers==4.2.0
 djangorestframework==3.14.0
 filelock==3.12.3
 gunicorn==23.0.0
-mysqlclient==2.2.6
 packaging==24.2
 platformdirs==3.10.0
 psycopg==3.2.3
+psycopg2==2.9.10
+psycopg2-binary==2.9.10
 python-dotenv==1.0.1
 sqlparse==0.4.4
 typing_extensions==4.12.2
