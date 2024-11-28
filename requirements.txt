@@ -10,7 +10,6 @@ packaging==24.2
 platformdirs==3.10.0
 psycopg==3.2.3
 python-dotenv==1.0.1
-pytz==2023.3.post1
 sqlparse==0.4.4
 typing_extensions==4.12.2
 tzdata==2023.3
