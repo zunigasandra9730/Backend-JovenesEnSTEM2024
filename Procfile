@@ -1,1 +1,1 @@
-web: gunicorn jovenes_stem_project.wsgi
+web: python manage.py collectstatic && gunicorn jovenes_stem_project.wsgi
