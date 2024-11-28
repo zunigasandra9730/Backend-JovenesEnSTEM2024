@@ -172,6 +172,6 @@ STORAGES = {
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-ALLOWED_HOSTS = ['127.0.0.1','web-production-71d9.up.railway.app', 'frontend-jovenesenstem2024-production.up.railway.app','jovenesenstem-ugb.com']
+ALLOWED_HOSTS = ['127.0.0.1','web-production-71d9.up.railway.app', 'frontend-jovenesenstem2024-production.up.railway.app','jovenesenstem-ugb.com','https://www.jovenesenstem-ugb.com','https://jovenesenstem-ugb.com']
 
 CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-71d9.up.railway.app', 'https://frontend-jovenesenstem2024-production.up.railway.app','https://www.jovenesenstem-ugb.com','https://jovenesenstem-ugb.com']
