@@ -25,8 +25,6 @@ SECRET_KEY = "django-insecure-caj&m_jzl)u-@-im-qyth=f^0h!#0+_6(#ocb@%np4mry*#cj*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -141,3 +139,5 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',
     )
 }
+
+ALLOWED_HOSTS = ['localhost','web-production-71d9.up.railway.app']
